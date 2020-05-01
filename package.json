@@ -1,0 +1,29 @@
+{
+  "name": "tempmon",
+  "version": "1.0.0",
+  "description": "Temperature Monitor",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcfly77/TempMon.git"
+  },
+  "keywords": [
+    "temperature",
+    "nodemcu",
+    "DF22"
+  ],
+  "author": "Franz Reitmayer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcfly77/TempMon/issues"
+  },
+  "homepage": "https://github.com/mcfly77/TempMon#readme",
+  "dependencies": {
+    "ejs": "latest",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}

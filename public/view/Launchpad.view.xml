@@ -1,0 +1,28 @@
+<mvc:View controllerName="eu.reitmayer.templog.ui.controller.Launchpad"
+	xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:html="http://www.w3.org/1999/xhtml">
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Row sensor data"
+		subheader="Shows row sensor data in table" press="navToRowData">
+		<TileContent unit="°C" footer="% Humidity">
+			<ImageContent src="sap-icon://table-view" />
+		</TileContent>
+	</GenericTile>
+
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Manage Activity Master Data Type"
+		subheader="Subtitle" press="press">
+		<TileContent>
+			<ImageContent src="/images/294.jpg" />
+		</TileContent>
+	</GenericTile>
+
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Manage Activity Master Data Type With a Long Title Without an Icon"
+		subheader="Subtitle Launch Tile" mode="HeaderMode" press="press">
+		<TileContent unit="EUR" footer="Current Quarter" />
+	</GenericTile>
+
+	<GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Jessica D. Prince Senior Consultant"
+		subheader="Department" press="press">
+		<TileContent>
+			<ImageContent src="test-resources/sap/m/demokit/sample/GenericTileAsLaunchTile/images/ProfileImage_LargeGenTile.png" />
+		</TileContent>
+	</GenericTile>
+</mvc:View>
